@@ -1,6 +1,6 @@
 export function RevenueCard({ title,  orderCount, amount, flag, date }) {
   return (
-    <div className={flag? "rounded-md shadow-lg back bg-sky-700 hover:bg-sky-600 text-white overflow-hidden" : "rounded-md shadow-lg ovwerflow-hidden h-min"}>
+    <div className={flag? "rounded-md shadow-lg back bg-sky-700 hover:bg-sky-600 text-white overflow-hidden" : "rounded-md shadow-lg ovwerflow-hidden h-min bg-white"}>
       <div className={flag?  "flex text-m items-center pt-3 px-4" : "flex text-gray-700 text-m items-center pt-3 px-4"}>
         {title}
         <svg

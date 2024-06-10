@@ -1,6 +1,6 @@
 export function TransactionsTable({ transactions }) {
     return (
-        <div className="ml-8 bg-white p-3 rounded-md mr-6" >
+        <div className="ml-8 bg-white p-3 rounded-md mr-6 overflow-x-auto" >
             <TableControls></TableControls>
             <TableData transactions={transactions}></TableData>
         </div>

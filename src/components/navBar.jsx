@@ -1,6 +1,6 @@
 export function NavBar() {
   return (
-    <div className="flex justify-between items-center border shadow mb-3 p-3 pl-8 bg-white flex-wrap">
+    <div className="flex justify-between items-center border shadow mb-3 p-3 pl-8 bg-white flex-wrap overflow-hidden">
       <Payouts />
       <SearchBox />
       <Icons />

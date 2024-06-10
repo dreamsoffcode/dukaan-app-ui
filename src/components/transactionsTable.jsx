@@ -9,7 +9,7 @@ export function TransactionsTable({ transactions }) {
 
 function TableControls() {
     return (
-        <div className="flex justify-between mb-4">
+        <div className="flex justify-between mb-4 flex-wrap">
             <div className="flex items-center p-2 border">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
